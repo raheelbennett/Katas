@@ -48,3 +48,47 @@ Expected Output
 { tenDollar: 1, twoDollar: 1, oneDollar: 1, quarter: 3, penny: 2 }
 { twoDollar: 2, quarter: 3, dime: 2, penny: 4 }
 */
+
+
+/*
+another way to do this . 
+
+ calculate: function(change) {
+      while (change >= 2000)  {
+        defaultObject.twentyDollar += 1;
+        change -= 2000;
+      }
+      while (change >= 1000)  {
+        defaultObject.tenDollar += 1;
+        change -= 1000;
+      }
+      while(change >= 500)  {
+        defaultObject.fiveDollar += 1;
+        change -= 500;
+      }
+      while (change >= 200) {
+        defaultObject.twoDollar += 1;
+        change -= 200;
+      }
+      while (change >= 100) {
+        defaultObject.oneDollar += 1;
+        change -= 100;
+      }
+      while (change >= 25)  {
+        defaultObject.quarter += 1;
+        change -= 25;
+      }
+      while (change >= 10)  {
+        defaultObject.dime += 1;
+        change -= 10;
+      }
+      while (change >= 5) {
+        defaultObject.nickel += 1;
+        change -= 5;
+      }
+      while (change >= 1) {
+        defaultObject.penny += 1;
+        change -= 1;
+      }
+
+      */
